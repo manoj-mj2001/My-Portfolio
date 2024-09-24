@@ -8,6 +8,11 @@
     <!--=============== BOXICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
+      <!--=============== AOS JS ===============-->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -18,7 +23,7 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Mr. Manoj Tambake's Tech Portfolio💻</a>
+            <a href="#" class="nav__logo">Mr. Manoj Tambake's Tech Portfolio<span class="wave">💻</span></a>
 
             <div class="nav__menu">
                 <ul class="nav__list">
@@ -59,12 +64,16 @@
     <!--=============== MAIN ===============-->
     <main class="main">
         <!--=============== HOME ===============-->
-        <section class="home section" id="home">
+        <section class="home section" id="home" data-aos="fade-right"
+        data-aos-delay="300"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false">
             <div class="home__container container grid">
                 <div class="home__data">
-                    <span class="home__greeting">Hello👋, I'm</span>
+                    <span class="home__greeting">Hello<span class="wave">👋</span>, I'm</span>
                     <h1 class="home__name">Manoj Tambake</h1>
-                    <h3 class="home__education" style="color: white;">Front-end Developer👨‍💻</h3>
+                    <h3 class="home__education typewriter" style="color: white;">Front-end Developer<span class="wave">👨‍💻</span></h3>
 
                     <div class="home__button">
                         <a download="" href="assets/resume/Manoj-Tambake_Resume.pdf" class="button button--ghost" target="_blank">
@@ -96,14 +105,18 @@
         </section>
 
         <!--=============== ABOUT ===============-->
-        <section class="about section" id="about">
+        <section class="about section" id="about" data-aos="fade-left"
+        data-aos-delay="300"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false">
             <span class="section__subtitle">My Intro</span>
             <h2 class="section__title">About Me</h2>
 
             <div class="about__container container grid">
                 <img src="assets/img/aboutmj.jpg" alt="" class="about__img">
                     <p class="about__description">
-                        Hi👋, I am Manoj based in Solapur, Maharashtra. I am a recent B.Tech graduate in CSE from DBATU University with 8.60 CGPA & a creative Front-end Designer and Developer. 
+                        Hi<span class="wave">👋</span>, I am Manoj based in Solapur, Maharashtra. I am a recent B.Tech graduate in CSE from DBATU University with 8.60 CGPA & a creative Front-end Designer and Developer. 
                         I have a strong passion for web development and recently completed a Java Full Stack Development course with Symbiosis Skills & Professional University, in collaboration with Capgemini. This training has helped me build a solid understanding of both front-end and back-end technologies.
                         With a focus on building responsive, user-friendly interfaces, I’ve worked on several projects using technologies like HTML, CSS, JavaScript, React, CSS Frameworks like Bootstrap & Tailwind.
                         My goal is to create engaging, intuitive web experiences while continually expanding my skills as a front-end developer.
@@ -113,7 +126,11 @@
         </section>
 
         <!--=============== SKILLS ===============-->
-        <section class="skills section" id="skills">
+        <section class="skills section" id="skills" data-aos="fade-up"
+        data-aos-delay="300"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false">
             <span class="section__subtitle">My Abilities</span>
             <h2 class="section__title">My Skills</h2>
 
@@ -243,7 +260,6 @@
                         </div>
                     </div>
                 </div>
-
                         </div>
                     </div>
                 </div>
@@ -251,7 +267,11 @@
 
      
         <!--=============== WORK ===============-->
-        <section class="work section" id="work">
+        <section class="work section" id="work" data-aos="fade-right"
+        data-aos-delay="300"
+        data-aos-duration="1200"
+        data-aos-easing="ease"
+        data-aos-once="false">
             <span class="section__subtitle">My Portfolio</span>
             <h2 class="section__title">My Projects</h2>
             <div class="work__container container grid">
@@ -351,7 +371,11 @@
 
        
         <!--=============== CONTACT ===============-->
-        <section class="contact section" id="contact">
+        <section class="contact section" id="contact" data-aos="fade-down"
+        data-aos-delay="300"
+        data-aos-duration="1200"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false">
             <sapn class="section__subtitle">Get in touch</sapn>
             <h3 class="section__title">Contact Me</h3>
 
@@ -474,6 +498,10 @@
             </span>
         </div>
     </footer>
+
+     <!--=============== AOS JS ===============-->
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>

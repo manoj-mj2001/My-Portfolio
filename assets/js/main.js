@@ -1,3 +1,10 @@
+AOS.init({
+  duration: 1200,
+  easing: "ease",
+  once: false,
+  offset: 200,
+});
+
 /* Link active work */
 const workLinks = document.querySelectorAll(".work__item");
 
